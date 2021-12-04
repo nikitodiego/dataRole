@@ -1,0 +1,17 @@
+[{"id": 0, 
+  "pregunta":"Which of these tasks do you prefer?",
+  "respuesta":["Develop code to order and debug data.","Finding the rigth way to visualize the information ","Develop optimization algorithms."]
+    },
+ {"id": 1, 
+  "pregunta":"Data workflow.",
+  "respuesta":["Database and pipelines optimization.","Data manipulation.","Develop machine learning classification patterns."]
+    },
+ {"id": 2, 
+  "pregunta":"Choose one of the following Python libraries.",
+  "respuesta":["PySpark.","Pandas.","TensorFlow."]
+    },
+ {"id": 3, 
+  "pregunta":"Choose one of the following activities.",
+  "respuesta":["Data preparation.","Exploration and visualization.","Experimentation and prediction."]
+  }
+]

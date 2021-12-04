@@ -1,0 +1,70 @@
+#body{
+    background-color: rgb(56, 73, 170);
+}
+
+#titulo{
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(201, 67, 130);
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+}
+
+#fondo{
+    background-color: rgb(213, 223, 222);
+    padding: 3rem 1vw 3rem 0;
+    text-align: justify;
+}
+
+span{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: rgb(201, 67, 130);
+    
+}
+
+div form{
+    font-family: 'Source Code Pro', monospace;
+    /*color: rgb(128, 66, 136);*/
+    
+}
+
+#button{
+    margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+#clima{
+    display: flex;
+    justify-content: right;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.5vw;
+    justify-content: center;
+    margin: 9vw 0 100px 3vw;
+}
+
+#titulo2{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+@media only screen and (max-width:600px){
+    #clima{
+    display: none;
+    }
+}
+
+@media only screen and (min-width:600px){
+    #clima{
+        display: auto;
+        }
+}
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&family=Prompt:ital,wght@1,600&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Data Role</title>
+</head>
+<body id="body">
+    <div class="container">
+        <div class="row" id="fondo">
+            <div class="col-md-1"></div>
+            <div class="col-md-5" name="doc">
+                <h2 id="titulo">What´s your Data Role?</h2>
+                <form name="formu">
+                    <label for="nombre">Name:</label><br>
+                    <input type="text" id="nombre" value="" style="border-radius: 5px;"><br>
+                    <label for="edad">Age:</label><br>
+                    <input type="text" id="edad" value="" style="border-radius: 5px;">
+                </form><br>
+                    
+                
+                <div id="padre"></div><br>
+                <!-- Se generan los forms dinámicamente -->
+                
+                
+                <input type="Button" class="btn btn-dark" id="btn1" value="Submit"> 
+                <input type="Button" class="btn btn-dark" id="btn2" value="Visualize">
+                
+                <canvas id="myChart" style="width:100%;max-width:600px;margin-top: 3rem;"></canvas>
+                <p id="user"></p>
+                
+            </div>
+            <div class="col-md-5">
+            <div id="clima"></div>
+            
+            <div id="imagen"></div>
+            <div id="titulo2">age vs form result</div>
+            <canvas id="myChart2" style="width:100%;max-width:700px;margin-left:2vw"></canvas>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+         
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="./assets/js/modules/functions.js"></script>
+    <script src="./assets/js/modules/class.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
+
+
